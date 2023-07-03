@@ -25,15 +25,27 @@ CSS Styles Content Table
 00. Global Styles
 =================
 */
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400&display=swap');
+
+
+
+
+
+
 body {
     font-family: 'Raleway', sans-serif;
     color: #202020;
     position: relative;
+    background-color: #eccbaf;
 }
 
 h1 {
     font-size: 68px;
-    font-weight: 800;
+    font-weight: 500;
+    letter-spacing: 2px;
 }
 
 h2 {
@@ -51,6 +63,7 @@ h4	{
 	font-size: 18px;
 	font-weight: 600;
 	letter-spacing: 2px;
+    text-align: center;
 }
 h5 {
 	font-size: 15px;
@@ -58,11 +71,11 @@ h5 {
 }
 
 p {
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'Times New Roman', Times, serif;
     line-height: 24px;
-    font-size: 15px;
-    color: #606060;
-    font-weight: 300;
+    font-size: 16px;
+    color: #2b1a09;
+    font-weight: 500;
 }
 
 hr {
@@ -78,6 +91,11 @@ header, section, footer{
 .img-center {
     display: block;
     margin: 0 auto;
+}
+
+.img-fluid {
+    max-width: 50%;
+    height: auto;
 }
 
 .text-justify {
@@ -99,25 +117,25 @@ header, section, footer{
     color: #202020;
 }
 .post-btn:hover, .post-btn:hover i {
-    color: #EE5A3F;
+    color: #F3C196;;
 }
 
 .btn-primary {
-    background-color: #EE5A3F;
+    background-color: #F3C196;;
     color: #fff;
 }
 
 .btn-primary:hover {
     background-color: #202020;
-    color: #EE5A3F;
+    color: #F3C196;;
 }
 
 .btn-light {
-    background-color: #fff;
-    color: #202020;
+    background-color: #ffe8dd;
+    color: #2b1a09;
 }
 .btn-light:hover {
-    background-color: #EE5A3F;
+    background-color: #F3C196;;
     color: #fff;
 }
 
@@ -126,7 +144,7 @@ header, section, footer{
 	color: #fff;
 }
 .btn-dark:hover {
-	background-color: #EE5A3F;
+	background-color: #F3C196;;
 	color: #fff;
 }
 
@@ -144,7 +162,7 @@ header, section, footer{
     padding: 4px;
 }
 .fab:hover, .fas:hover {
-    color: #EE5A3F;
+    color: #F3C196;;
 }
 sub, sup {
     font-size: 66%;
@@ -249,7 +267,7 @@ h4 {
 
     padding-top: 14px;
     padding-bottom: 14px;
-    background-color: #202020;
+    background-color: #2a1909;
     box-shadow: 0px 8px 8px rgba(0,0,0,0.1);
     -webkit-animation-name: slideInDown;
     animation-name: slideInDown;
@@ -259,7 +277,7 @@ h4 {
 	text-transform: uppercase;
 }
 .navbar-dark .navbar-nav .nav-link:hover {
-	color: #EE5A3F;
+	color: #F3C196;;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 12px;
@@ -272,7 +290,7 @@ h4 {
 .navbar-dark .navbar-nav .nav-link.active, 
 .navbar-dark .navbar-nav .nav-link.show, 
 .navbar-dark .navbar-nav .show > .nav-link {
-    color: #EE5A3F;
+    color: #F3C196;;
 }
 
 .navbar-toggler > .i1{
@@ -330,7 +348,7 @@ h4 {
 header {
 	background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.4)),
                 url(../assets/hero-bg.jpg);
-    background-color: #202020;
+    background-color: #3f260d;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top;
@@ -359,7 +377,7 @@ header p {
 ===========
 */
 .statics {
-	background-color: #EE5A3F;
+	background-color: #F3C196;;
 	color: #fff;
 	padding-top: 44px;
 	padding-bottom:44px;
@@ -420,7 +438,7 @@ header p {
 }
 
 .chapters-list:hover h4 {
-	color: #EE5A3F;
+	color: #F3C196;;
 }
 
 /*
@@ -451,7 +469,7 @@ header p {
 */
 
 #feedback {
-    background-color: #f9f9f9;
+    background-color: #F3C196;
 }
 
 #feedback {
@@ -464,7 +482,7 @@ header p {
 
 .review-list {
     padding: 36px 20px 20px;
-    background-color: #fff;
+    background-color: #eccbaf;
     border: 1px solid rgba(0,0,0,.1);
     margin-bottom: 60px;
 }
@@ -591,13 +609,13 @@ header p {
 }
 
 .pricing-table.big .price {
-    background-color: #EE5A3F;
+    background-color: #F3C196;;
     padding-top: 60px;
     padding-bottom: 60px;
 }
 
 .pricing-table.popular .price {
-    background-color: #EE5A3F;
+    background-color: #F3C196;;
 }
 
 
@@ -627,7 +645,7 @@ header p {
 ===================
 */
 .simple-banner {
-    background-color: #EE5A3F;
+    background-color: #F3C196;;
     text-align: center;
     padding-top: 48px;
     padding-bottom: 48px;
@@ -748,11 +766,11 @@ footer .copy-line  {
 }
 
 .footer-social-links a:hover {
-    border-color: #EE5A3F;
+    border-color: #F3C196;;
 }
 
 .footer-social-links a:hover i{
-    color: #EE5A3F;
+    color: #F3C196;;
 }
 
 
@@ -770,7 +788,7 @@ footer .copy-line  {
         padding-top: 15px;
     }
     header {
-        padding-top: 200px;
+        padding-top: 100px;
         padding-bottom: 90px;
         text-align: center;
     }
@@ -853,10 +871,14 @@ footer .copy-line  {
 @media only screen and (max-width: 575px) {
     h1 {
         font-size: 42px;
+        color: #F3C196;
+        font-family: 'Dancing Script', cursive;
     }
     h3 {
         font-size: 18px;
         letter-spacing: 1px;
+        color: #2b1a09;
+
     }
     h2 {
         font-size: 26px;
@@ -866,7 +888,7 @@ footer .copy-line  {
         max-width: 100px;
     }
     .section-title {
-        padding-bottom: 70px;
+        padding-bottom: 40px;
     }
     .read-in-all {
         padding-top: 70px;
@@ -976,3 +998,10 @@ footer .copy-line  {
        -moz-transform-origin: 0;
             transform-origin: 0;
   }
+
+
+  footer {
+    background-color: #2b1a09;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
