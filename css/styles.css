@@ -87,6 +87,9 @@ header, section, footer{
     overflow: hidden;
 }
 
+img {
+	border-radius: 50%;
+}
 
 .img-center {
     display: block;
